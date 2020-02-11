@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>To Do List 🐼</title>
+            <link rel="stylesheet" href="testCSS">
+        </head>
+        <body>
+                <div class="wrapper">
+                    <header>
+                      <h1>To Do List</h1>
+                      <form id="submitTask">
+                        <input type="text" name="name" placeholder="Add a new task">
+                        <button type="submit" name="submit" value="submit">To Do</button>
+                      </form>
+                    </header>
+                        
+                    <div class="main">	
+                      <p>Your to do list :</p>
+                      <ul id="toDoList"></ul>	
+                    </div>
+                </div>
+            <script src="testJS"></script>
+        </body>
+    </html>
