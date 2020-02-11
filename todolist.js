@@ -7,11 +7,12 @@ const input = form.querySelector('input');
         e.preventDefault();
         const text = input.value;
         input.value = '';
+
         const ul = document.getElementById('toDoList');
         const li = document.createElement('li');
 
         li.textContent = text;
         ul.appendChild(li);
-      });
+    });
 
 });

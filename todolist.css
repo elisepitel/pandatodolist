@@ -3,6 +3,16 @@
 ==================================== */
 
 
-p {
+p, li{
     color: #8A7FEC;
-  }
+}
+
+header {
+  background: url('https://piskel-imgstore-b.appspot.com/img/8ad9ef91-4c56-11ea-a145-b1b815fe5453.gif');
+  height: 200px;  
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
