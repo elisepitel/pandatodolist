@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => { 
 
 const form = document.getElementById('submitTask');
-const input = document.querySelector('input');
+const input = form.querySelector('input');
 
     form.addEventListener ('submit', (e) => {
         e.preventDefault();
