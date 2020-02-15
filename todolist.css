@@ -12,6 +12,15 @@ header {
   height: 200px;  
   text-align: center;
 }
+.single-before {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li::before {
+	content: "🐼 ";
+}
 
 body {
   text-align: center;
