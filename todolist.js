@@ -55,6 +55,7 @@ const input = form.querySelector('input');
             li.removeChild(saveButton);
             li.prepend(span);
             li.appendChild(editButton);
+            span.prepend(doneCheck);
          });
     });
 
