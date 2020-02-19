@@ -12,7 +12,7 @@ const input = form.querySelector('input');
         span.innerHTML = input.value;
         input.value = '';
 
-        li.className = 'single-before';
+        li.className = "single-before";
 
         li.appendChild(span);
         ul.appendChild(li);
@@ -24,10 +24,6 @@ const input = form.querySelector('input');
         deleteButton.addEventListener ('click', (e) => {
             ul.removeChild(li);
         });
-        
-        const doneCheck = document.createElement('input');
-        doneCheck.type = 'checkbox';
-        span.prepend(doneCheck);
 
         const editButton = document.createElement('button');
         editButton.textContent = 'edit';

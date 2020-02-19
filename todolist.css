@@ -2,9 +2,32 @@
   Element Styles
 ==================================== */
 
-
-p, li{
+p{
     color: #8A7FEC;
+}
+
+li{
+    list-style: none;
+    color: #8A7FEC;
+    text-align:center;     
+    border: 1px solid #8A7FEC;
+    border-top:60px solid #f5f4ff; 
+    background: #f8f7ff;    
+    margin: 25px; 
+    line-height: 1;       
+    width: 275px;
+    min-height:200px;
+    max-height:200px;
+    padding-top:35px;
+    border-bottom-right-radius: 60px 5px;
+    display:inline-block;   
+}  
+.single-before {
+  list-style: none;
+
+}
+li::before {
+	content: "🐼 ";
 }
 
 header {
@@ -12,15 +35,8 @@ header {
   height: 200px;  
   text-align: center;
 }
-.single-before {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-li::before {
-	content: "🐼 ";
-}
+
 
 body {
   text-align: center;
