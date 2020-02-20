@@ -9,7 +9,7 @@ const input = form.querySelector('input');
         const ul = document.getElementById('toDoList');
         const span = document.createElement('span');
         const li = document.createElement('li');
-        span.innerHTML = input.value;
+        span.innerHTML = input.value + ' ';
         input.value = '';
 
         li.className = "single-before";
